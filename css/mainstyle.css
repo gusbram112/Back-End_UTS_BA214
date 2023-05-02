@@ -1,0 +1,199 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.container {
+    width: 960px;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    color: #000000;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li a {
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: rgb(11, 57, 84);
+    color: white;
+}
+
+.sidebar li a:hover {
+    background-color: #0086bb;
+}
+
+.sidebar li a.active{
+    background-color: #0086bb;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.content {
+    width: 79%;
+    min-height: 500px;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgb(9, 60, 90);
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+body{
+    margin: 0;
+    background : rgb(21, 117, 172);
+}
+
+/*tabel*/
+table.data {
+    width: 98%;
+    border-collapse: collapse;
+}
+
+table.data th {
+    padding: 10px 5px;
+}
+
+table.data td {
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+table.data td a.link {
+    color: #3F27E6;
+    text-decoration: underline;
+}
+table.data td a.link:hover {
+    color: #0086bb;
+    text-decoration: underline;
+}
+
+table.data tr:hover:not(:first-child) {
+    background-color: #0086bb;
+}
+
+table.data tr:hover:not(:first-child):nth-of-type(odd) {
+    background-color: #0086bb;
+}
+
+table.data tr:not(:first-child):nth-of-type(odd) {
+    background-color: rgb(1, 83, 130);
+}
+
+
+/*form*/
+
+.form{
+    background: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 4px 20px 15px 20px;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+    color: #000000;
+    margin: 0 auto;
+    width: 430px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+.btn {
+    width: auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table .btn{
+    font-size: 12px;
+}
+
+.btn-submit {
+    background-color: #187110;
+}
+
+.btn-signup {
+    background-color: #ac3333;
+}
+
+.btn-submit:hover {
+    background-color: #CA665C;
+}
+
+.btn-signup:hover {
+    background-color: #CA665C;
+}
+
+.btn-s:hover {
+    background-color: #CA665C;
+}
+
+.btn-tambah {
+    background-color: #27ae60;
+}
+
+.btn-tambah-div{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.btn-tambah:hover {
+    background-color: #2ecc71;
+}
+
+.btn-edit {
+    background-color: #2980b9;
+}
+.btn-edit:hover{
+    background-color: #5DA7D8;
+}
+
+.btn-hapus {
+    background-color: #c0392b;
+}
+.btn-hapus:hover {
+    background-color: #CE5A4E;
+}
+
+.buku-cover {
+    max-width: 50px;
+}
